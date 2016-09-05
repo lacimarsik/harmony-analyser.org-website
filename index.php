@@ -94,8 +94,8 @@
 			<div id="main_message">
 				<h3>harmony-analyser is a Java framework and application capable of music harmony analysis of WAV files or MIDI input.</h3>
 			</div>
-			<p>The main goal of harmony-analyser is the chord and chroma transition-based approach. We believe that transitions between small chroma segments and between
-				chords can be enumerated and aid various Music Information Retrieval tasks.</p>
+			<p>The difference we bring is in the chord and chroma transition-based approach. We believe that transitions between small chroma segments and between
+				chords can be enumerated and aid various Music Information Retrieval tasks. We aim to create a media player, which understands the music as it plays it.</p>
 			<p>harmony-analyser is licenced under the <a href="https://github.com/lacimarsik/harmony-analyser/blob/master/LICENSE.txt" target="_blank">MIT License</a> and is using
 				GPL-licenced <a target="_blank" href="http://vamp-plugins.org" target="_blank">Vamp plugins</a>.</p>
 			<p>To contribute, please follow our guideline in <a href="https://github.com/lacimarsik/harmony-analyser" target="_blank">GitHub repository</a>.</p>
@@ -104,7 +104,7 @@
 			<h3>Releases</h3>
 			<p>Please choose from the releases below:</p>
 			<div id="releases-div">
-				<p><a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.0.jar">harmony-analyser 1.0 (JAR archive)</a></p>
+				<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.0.jar">harmony-analyser 1.0 (JAR archive)</a></p>
 				<p>CHANGELOG</p>
 				<ul>
 					<li>Harmony complexity analysis</li>
