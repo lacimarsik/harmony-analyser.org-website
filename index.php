@@ -21,6 +21,10 @@
 			margin-top: 50px;
 		}
 
+		h3 {
+			margin-top: 20px;
+		}
+
 		img {
 			width: 70%;
 		}
@@ -46,6 +50,15 @@
 		#main p {
 			line-height: 1.3em;
 			padding: 15px 0;
+		}
+
+		#releases-div {
+			font-size: 90%;
+			text-align: left;
+		}
+
+		#releases-div ul {
+			line-height: 1.4em;
 		}
 
 		#main_message {
@@ -90,11 +103,17 @@
 		<div id="releases">
 			<h3>Releases</h3>
 			<p>Please choose from the releases below:</p>
-			<p>1.0 <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.0.jar">harmony-analyser 1.0 (JAR archive)</a></p>
-			<p>CHANGELOG</p>
-			<ul>
-				<li>2 </li>
-			</ul>
+			<div id="releases-div">
+				<p><a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.0.jar">harmony-analyser 1.0 (JAR archive)</a></p>
+				<p>CHANGELOG</p>
+				<ul>
+					<li>Harmony complexity analysis</li>
+					<li>Basic Chroma transition analysis</li>
+					<li>Vamp plugins implementation for basic descriptors and ground-truth comparison</li>
+					<li>Visualization (Complexity, Chroma transitions, Vamp plugins)</li>
+					<li>Chord Transition Tool compliant with MIDI keyboard input</li>
+				</ul>
+			</div>
 		</div>
 
 		<div id="screenshots">
