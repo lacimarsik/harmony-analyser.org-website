@@ -1,0 +1,11 @@
+a#show a#hide {
+    cursor: pointer;
+}
+
+a#hide {
+    display: none;
+}
+
+#previous-releases {
+    display: none;
+}

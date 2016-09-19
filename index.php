@@ -104,17 +104,40 @@
 			<h3>Releases</h3>
 			<p>Please choose from the releases below:</p>
 			<div id="releases-div">
-				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.1-beta-jar-with-dependencies.jar">harmony-analyser 1.1-beta (Executable JAR archive)</a></p>
+				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.2-beta-jar-with-dependencies.jar">harmony-analyser 1.2-beta (Executable JAR archive)</a></p>
 
-				<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/harmony-analyser-1.0.jar">harmony-analyser 1.0 (JAR archive)</a></p>
-				<p>CHANGELOG</p>
-				<ul>
-					<li>Harmony complexity analysis</li>
-					<li>Basic Chroma transition analysis</li>
-					<li>Vamp plugins implementation for basic descriptors and ground-truth comparison</li>
-					<li>Visualization (Complexity, Chroma transitions, Vamp plugins)</li>
-					<li>Chord Transition Tool compliant with MIDI keyboard input</li>
-				</ul>
+				<div id="current-release">
+					<p>2016-09-19 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/harmony-analyser-1.1-jar-with-dependencies.jar">harmony-analyser 1.1 (Executable JAR archive)</a></p>
+					<p>CHANGELOG</p>
+					Added visualizations for all recent high-level plugins (Chordino, Transition Complexity, Chroma Complexity) in the new Visualization Tool tab
+					<ol>
+						<li>Added Chroma Complexity analysis, evaluating transitions between subsequent chromas:
+							<ul>
+								<li>Simple: only activation changes between chromas</li>
+								<li>Tonal: Focusing on activation changes between non-key tones, common key being calculated for 2 chromas</li>
+							</ul>
+						</li>
+						<li>Added visualizations for all recent high-level plugins (Chordino, Transition Complexity, Chroma Complexity) in the new Visualization Tool tab</li>
+					</ol>
+				</div>
+
+				<a id="show" onclick="show();">Show previeus releases</a>
+				<a id="hide" onclick="hide();">Hide previeus releases</a>
+				<div id="previous-releases">
+					<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/harmony-analyser-1.0-jar-with-dependencies.jar">harmony-analyser 1.0 (Executable JAR archive)</a></p>
+					<p>CHANGELOG</p>
+					<p>In this version, 2 basic types of analysis are supported:</p>
+					<ol>
+						<li>Chord transition analysis: Using your MIDI keyboard, capture chords, see their names and structure and evaluate their transition</li>
+						<li>Audio analysis: Analyse WAV files in a given folder. Supported analysis include:
+							<ul>
+								<li>low-level VAMP plugin (NNLS Chroma) analysis</li>
+								<li>high-level VAMP plugin (Chordino) analysis</li>
+								<li>and high-level Transition Complexity analysis, based on theory described in this paper, taking the low-level analysis as an input</li>
+							</ul>
+						</li>
+					</ol>
+				</div>
 			</div>
 		</div>
 
