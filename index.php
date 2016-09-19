@@ -111,7 +111,6 @@
 				<div id="current-release">
 					<p>2016-09-19 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/harmony-analyser-1.1-jar-with-dependencies.jar">harmony-analyser 1.1 (Executable JAR archive)</a></p>
 					<p>CHANGELOG</p>
-					Added visualizations for all recent high-level plugins (Chordino, Transition Complexity, Chroma Complexity) in the new Visualization Tool tab
 					<ol>
 						<li>Added Chroma Complexity analysis, evaluating transitions between subsequent chromas:
 							<ul>
@@ -123,12 +122,12 @@
 					</ol>
 				</div>
 
-				<a id="show" onclick="show();">Show previeus releases</a>
-				<a id="hide" onclick="hide();">Hide previeus releases</a>
+				<a id="show" onclick="show();">Show previous releases</a>
+				<a id="hide" onclick="hide();">Hide previous releases</a>
 				<div id="previous-releases">
 					<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/harmony-analyser-1.0-jar-with-dependencies.jar">harmony-analyser 1.0 (Executable JAR archive)</a></p>
 					<p>CHANGELOG</p>
-					<p>In this version, 2 basic types of analysis are supported:</p>
+					In this version, 2 basic types of analysis are supported:
 					<ol>
 						<li>Chord transition analysis: Using your MIDI keyboard, capture chords, see their names and structure and evaluate their transition</li>
 						<li>Audio analysis: Analyse WAV files in a given folder. Supported analysis include:

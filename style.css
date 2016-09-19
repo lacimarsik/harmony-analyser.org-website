@@ -1,5 +1,7 @@
-a#show a#hide {
+a#show, a#hide {
     cursor: pointer;
+    color: blue;
+    text-decoration: underline;
 }
 
 a#hide {
@@ -8,4 +10,13 @@ a#hide {
 
 #previous-releases {
     display: none;
+}
+
+ol, ul {
+    padding-left: 15px;
+    line-height: 1.1em;
+}
+
+li {
+    padding-left: 10px;
 }
