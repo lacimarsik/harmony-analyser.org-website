@@ -7,6 +7,8 @@
 	<title>harmony-analyser.org</title>
 	<meta name="description" itemprop="description" content="harmony-analyser.org: Java Framework and Java application for analysing harmonies and chord progressions of WAV or MIDI input. " />
 	<link rel="shortcut icon" href="http://websupport.sk/images/favicon.ico" type="image/x-icon" />
+	<link href="style.css" rel="stylesheet">
+	<script src="javascript.js"></script>
 	<style type="text/css" media="screen">
 		@import url(http://m.websupport.sk/generic-pages/default/style.css);
 	</style>
