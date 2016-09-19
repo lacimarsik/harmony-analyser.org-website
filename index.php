@@ -104,7 +104,7 @@
 			<h3>Releases</h3>
 			<p>Please choose from the releases below:</p>
 			<div id="releases-div">
-				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.1-beta.jar">harmony-analyser 1.1-beta (JAR archive)</a></p>
+				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.1-beta-jar-with-dependencies.jar">harmony-analyser 1.1-beta (Executable JAR archive)</a></p>
 
 				<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/harmony-analyser-1.0.jar">harmony-analyser 1.0 (JAR archive)</a></p>
 				<p>CHANGELOG</p>
