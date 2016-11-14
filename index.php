@@ -150,13 +150,17 @@
 		</div>
 
 		<div id="screenshots">
-			<h3>Screenshots</h3>
-			<p>Chroma transition analysis</p>
-			<img title="Chroma transition analysis" src="wonderwall_chroma_complexity.png" /><br />
-			<p>Chord segmentation analysis</p>
-			<img title="Chord segmentation analysis" src="somebody_segmentation.png" /><br />
+			<h3>Screenshots of available tools</h3>
+			<p>Visualization tool (Chord distances)</p>
+			<img title="Chord distances" src="chord_distances.png" /><br />
+			<p>Visualization tool (Chord segmentation)</p>
+			<img title="Chord segmentation" src="somebody_segmentation.png" /><br />
+			<p>Visualization tool (Chroma differences - experimental)</p>
+			<img title="Chroma differences" src="wonderwall_chroma_complexity.png" /><br />
 			<p>Chord transition tool</p>
 			<img title="Chord transition tool" src="chord_transitions.png" /><br />
+			<p>Audio analysis tool</p>
+			<img title="Audio analysis tool" src="audio_analysis_tool.png" /><br />
 		</div>
 
 		<div id="contact">
