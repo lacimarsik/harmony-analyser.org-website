@@ -145,7 +145,8 @@
 				</div>
 				<div id="current-release-library">
 					<strong>JHarmonyAnalyser stand-alone library</strong><br />
-					<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta.tgz">jharmony-analyser-1.2-beta.tgz (TGZ archive)</a></p>
+					<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta.tgz">jharmony-analyser-1.2-beta.tgz (TGZ archive)</a>
+					<a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta.jar">jharmony-analyser-1.2-beta.jar (JAR archive)</a></p>
 				</div>
 			</div>
 		</div>
