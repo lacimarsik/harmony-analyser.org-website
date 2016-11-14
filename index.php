@@ -76,13 +76,14 @@
 <body>
 
 	<div id="header-wrapper">
-		<div id="header">
+		<div id="header" style="font-size: 0.8em;">
 			<p>
 				harmony-analyser.org
 			</p>
 			<a href="https://github.com/lacimarsik/harmony-analyser" title="Repository" target="_blank">Repository</a>
 			<a href="#releases" title="Releases">Releases</a>
 			<a href="#screenshots" title="Screenshots">Screenshots</a>
+			<a href="documentation" title="Documentation">Documentation</a>
 			<a href="#contact" title="Contact">Contact</a>
 		</div>
 	</div>
