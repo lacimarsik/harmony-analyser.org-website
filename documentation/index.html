@@ -2,20 +2,122 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>harmony-analyser</title>
+        <title>harmony-analyser documentation</title>
     </head>
-    <body>
-        <h1>harmony-analyser</h1>
-        <p>harmony-analyser is a tool for harmonic analysis, featuring chord transition tool for MIDI input
-           and audio analysis from WAVE input. The application was developed 2013-2016 as a joint Master's thesis & PhD thesis project
-           (Comenius University in Bratislava, Charles University in Prague).</p>
-        <strong>Links</strong><br />
-        <a href="download">Download</a> to get the latest version<br />
-    <a href="documentation">Documentation</a> for harmony-analyser application<br />
-    <a href="analysis">Analysis</a> of musical data to obtain results for harmonic complexity<br />
-    <br />
-    <p>For more information please refer to the <a href="http://oldwww.dcs.fmph.uniba.sk/diplomovky/registracia/Detail.php?id=366">master thesis</a> page.</p>
-    <p>Contact: Ladislav Maršík: laci (at) marsik (dot) sk</p>
-    
+    <body style="margin: 0 auto; width: 80%;">
+    <style>
+        p {
+            width: 80%;
+            text-align: justify;
+        }
+    </style>
+        <h1>harmony-analyser documentation</h1>
+
+        <!-- Table of contents -->
+        <h2>Table of contents</h2>
+        <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#jharmonyanalyser">JHarmonyAnalyser library documentation</a></li>
+              <ol>
+                 <li><a href="#jh-installation">Installation</a></li>
+                 <li><a href="#jh-chord-analyser">Chord Analyser reference</a></li>
+                 <li><a href="#jh-chroma-analyser">Chroma Analyser reference</a></li>
+              </ol>
+            </li>
+            <li><a href="#harmony-analyser">harmony-analyser tools documentation</a></li>
+            <ol>
+                <li><a href="#ha-installation">Installation</a></li>
+                <li><a href="#ha-chord-transition-tool">Chord Transition Tool</a></li>
+                <li><a href="#ha-audio-analysis-tool">Audio Analysis Tool</a></li>
+                <li><a href="#ha-visualization-tool">Visualization Tool</a></li>
+            </ol>
+            </li>
+            <li><a href="#contact">Contact information</a></li>
+        </ol>
+
+        <!-- JHarmonyAnalyser -->
+        <h2 id="introduction">1. Introduction</h2>
+        <p>harmony-analyser is a set of visual tools for music harmony analysis of WAV/MIDI input, powered by <a href="#jharmonyanalyser">JHarmonyAnalyser</a> library.
+           The application was developed 2013-2016 as a joint Master's thesis & PhD thesis project (Comenius University in Bratislava, Charles University in Prague,
+           with the help of LaBRI Université Bordeaux 1) by Ladislav Maršík <a href="mailto: marsik@ksi.mff.cuni.cz">[contact author]</a>.</p>
+
+        <p>Documentation has two parts:</p>
+        <ol>
+            <li><a href="#jharmonyanalyser">JHarmonyAnalyser library documentation</a> explains the used models of music theory, chord and chroma distances.</li>
+            <li><a href="#harmony-analyser">harmony-analyser tools documentation</a> explains the user interface of available tools on <a href="http://harmony-analyser.org">harmony-analyser.org</a></li>
+        </ol>
+
+        <!-- JHarmonyAnalyser -->
+        <h2 id="jharmonyanalyser">2. JHarmonyAnalyser library documentation</h2>
+
+        <!-- Installation -->
+        <h3 id="jh-installation">2.1. Installation</h3>
+        <p>Download and unpack the source tarball from the <a href="http://harmony-analyser.org#current-release-library">library releases page</a>. Optionally, download the
+        library in the form of JAR file, importing it to your project.</p>
+
+        <!-- Chord Analyser -->
+        <h3 id="jh-chord-analyser">2.2 Chord Analyser reference</h3>
+        <p></p>
+
+        <!-- Chroma Analyser -->
+        <h3 id="jh-chroma-analyser">2.3. Chroma Analyser reference</h3>
+        <p></p>
+
+        <!-- harmony-analyser -->
+        <h2 id="harmony-analyser">3. harmony-analyser tools documentation</h2>
+        <p></p>
+
+        <!-- Installation -->
+        <h3 id="ha-installation">3.1 Installation</h3>
+        <p>Download the executable JAR file from <a href="http://harmony-analyser.org#current-release">releases page</a>.
+        Please note that <a href="http://java.com/en/download/">JRE 8</a> or higher needs to be installed on your machine,
+        and the selection of Vamp plugins needs to be installed locally:
+        <ul>
+            <li><a href="http://www.mega-nerd.com/libsndfile/">libsndfile</a> 1.0.27 or higher (Linux: Usually supported by package manager)</li>
+            <li><a href="https://code.soundsoftware.ac.uk/projects/vamp-plugin-sdk">Vamp Plugins SDK</a> 2.6 or higher (Linux: Supported by package manager, or <em>./configure && make sdk && make install</em>) </li>
+            <li><a href="https://code.soundsoftware.ac.uk/projects/jvamp">jVamp</a> 1.3 or higher (Linux: compile and place <em>libvamp-jni.so</em> to your <em>java.library.path</em> folder; run <em>java -XshowSettings:properties</em> if you are unsure of the location)</li>
+            <li><a href="http://www.isophonics.net/nnls-chroma">Chordino and NNLS Chroma</a> Vamp plugins 1.1 or higher (Linux: compile and place <em>nnls-chroma.so</em> to <em>usr/local/lib/vamp</em> folder)</li>
+        </ul>
+
+        <!-- Chord Transition Tool -->
+        <h3 id="ha-chord-transition-tool">3.2 Chord Transition Tool</h3>
+        <p>Make sure that a MIDI input device is connected to your machine. Chord Transition Tool works with MIDI devices connected
+        to the MIDI IN port on your soundcard, or USB port. If you don't have a MIDI input device, you can still use
+        a virtual MIDI keyboard such as <a href="http://ccrma.stanford.edu/planetccrma/man/man1/vkeybd.1.html">vkeybd</a> for Linux
+        (make sure that the raw MIDI ports are available when using virtual keyboards) or just use the text input in Chord transition tool.
+        By hitting capture you can record two chords. Alternative way is to insert the chord in the text feel in absolute format
+        (e.g. <i>C3 E3 G3</i>) or relative format (e.g. <i>C E G</i>). The tool will calculate the chord complexity of both chords and
+        the transition complexity in between them.</p>
+        <img title="Chord transition tool" style="width: 40%;" src="../chord_transitions.png" /><br />
+
+        <!-- Audio Analysis Tool -->
+        <h3 id="ha-audio-analysis-tool">3.3 Audio Analysis Tool</h3>
+        <p>Choose the folder to analyse (you should have your WAV files prepared in this folder).
+        To see the available plugins and their settings, click button "List plugins". Proceed by clicking
+        any of the available analysis buttons.</p>
+        <img title="Chroma transition analysis" style="width: 40%;" src="../audio_analysis_tool.png" /><br />
+
+        <!-- Visualization Tool -->
+        <h3 id="ha-visualization-tool">3.4 Visualization Tool</h3>
+        <p>Choose the full path for the WAV file to analyse. Choose the desired visualizations in the drop-down menus.
+        After hitting the analyse button, the visulizations will render. If the analysis outputs have already been created,
+        the analysis will not be overriden. Instead, the files will be read from hard-drive, and the visualization
+        displayed based on the information found.</p>
+        <img title="Chroma transition analysis" style="width: 40%;" src="../wonderwall_chroma_complexity.png" /><br />
+
+        <!-- Contact information -->
+        <h2 id="contact">4. Contact information</h2>
+        <p>Reach us at:</p>
+        <ul>
+            <li><a href="http://harmony-analyser.org">harmony-analyser.org</a></li>
+            <li><a href="https://github.com/lacimarsik/harmony-analyser">GitHub</a></li>
+            <li>Mail the author: <a href="mailto: marsik@ksi.mff.cuni.cz">marsik@ksi.mff.cuni.cz</a></li>
+            <li><a href="http://www.ksi.mff.cuni.cz/cs/~marsik">Personal website</a></li>
+            <li>Contact address:<br/>
+            Ladislav Maršík<br/>
+            Dept. of Software Engineering, Faculty of Mathematics and Physics<br />
+            Charles University, Malostranské nám. 25, Prague, Czech Republic<br />
+            room 308, phone: 00 420 951 554 286</li>
+        </ul>
     </body>
 </html>
