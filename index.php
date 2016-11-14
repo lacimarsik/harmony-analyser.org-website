@@ -76,7 +76,7 @@
 <body>
 
 	<div id="header-wrapper">
-		<div id="header" style="font-size: 0.8em;">
+		<div id="header" style="font-size: 0.7em;">
 			<p>
 				harmony-analyser.org
 			</p>
@@ -84,6 +84,7 @@
 			<a href="#releases" title="Releases">Releases</a>
 			<a href="#screenshots" title="Screenshots">Screenshots</a>
 			<a href="documentation" title="Documentation">Documentation</a>
+			<a href="http://www.ksi.mff.cuni.cz/en/~marsik" title="Publications">Publications</a>
 			<a href="#contact" title="Contact">Contact</a>
 		</div>
 	</div>
