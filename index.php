@@ -108,6 +108,7 @@
 			<h3>Releases</h3>
 			<p>Please choose from the releases below:</p>
 			<div id="releases-div">
+				<strong>harmony-analyser tools</strong><br />
 				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.2-beta-jar-with-dependencies.jar">harmony-analyser 1.2-beta (Executable JAR archive)</a></p>
 
 				<div id="current-release">
@@ -140,6 +141,10 @@
 							</ul>
 						</li>
 					</ol>
+				</div>
+				<div id="current-release-library">
+					<strong>JHarmonyAnalyser stand-alone library</strong><br />
+					<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta.tgz">jharmony-analyser-1.2-beta.tgz (TGZ archive)</a></p>
 				</div>
 			</div>
 		</div>
