@@ -49,6 +49,7 @@
 
         <!-- JHarmonyAnalyser -->
         <h2 id="jharmonyanalyser">2. JHarmonyAnalyser library documentation</h2>
+        <p>For version: 1.2</p>
 
         <!-- Installation -->
         <h3 id="jh-installation">2.1. Installation</h3>
@@ -57,14 +58,59 @@
 
         <!-- Chord Analyser -->
         <h3 id="jh-chord-analyser">2.2 Chord Analyser reference</h3>
-        <p></p>
+
+        <p>Chord Analyser is a joint name for the models available under <em>chord_analyser</em> Java package. Explanation of the models follow:</p>
+
+        <ul>
+            <li><strong>Tonal Pitch Space</strong> (TPS) is a <a href="http://www.oupcanada.com/catalog/9780195178296.html">model proposed by Fred Lerdahl</a> in 2001.
+            Chords are visualized in five levels (octave, fifths, triadic, diatonic, and chromatic). Distances between chords are then calculated as a sum of number of shifts
+            and number of non-common pitch classes on certain levels. We use TPS as one of our chord distances, as it can measure distance between arbitrary chords within one octave.</li>
+
+            <li><strong>Chord Complexity Distance</strong> (CCD) is a model proposed in <a href="http://ceur-ws.org/Vol-1139/paper11.pdf">our previous work</a>.
+            This model treats the added dissonant tones on the top of major or minor chord as additional layers of complexity. Rules are defined o add/remove/modify the
+            dissonant tones. Resulting distance equals the complexity of constructing the next chord from the previous chord.</li>
+        </ul>
 
         <!-- Chroma Analyser -->
         <h3 id="jh-chroma-analyser">2.3. Chroma Analyser reference</h3>
-        <p></p>
+
+        <p>Chroma Analyser is a joint name for the models available under <em>chroma_analyser</em> Java package. Explanation of the models follow:</p>
+
+        <ul>
+            <li><strong>Euclidean distance</strong> </li>
+            The Euclidean distance between points <em>p</em> and <em>q</em> is the length of the line segment connecting them<br />
+            <img style="width: 400px;" src="../euclidean_distance.png" /><br/>
+            [Source: Wikipedia] <a href="https://en.wikipedia.org/wiki/Euclidean_distance">Link to the source</a><br /><br />
+
+            <li><strong>Weighted sums</strong> </li>
+            Weighted sums method is the commonly used for pattern matching. In Chroma Analyser we experimentally use it to evaluate distance between two chromas.
+            Since weighted sum will output higher values for close match, we invert the resulting value to obtain distance measure. The original weighted sums definition is:
+            <img style="width: 400px;" src="../weighted_sums.png" /><br/>
+            Where <em>W<sub>c</sub></em> stands for a chord template (major, minor, diminished, ...), and <em>PCP</em> stands for pitch class profile of the segment being compared.
+            In our analysis we treat <em>W<sub>c</sub></em> as first chroma and <em>PCP</em> as second chroma.<br />
+            [Source: Fujishima, T. Realtime Chord Recognition of Musical Sound] <a href="http://www.music.mcgill.ca/~jason/mumt621/papers5/fujishima_1999.pdf">Link to the source</a><br /><br />
+
+            <li><strong>Simple difference</strong> </li>
+            We define simple difference of chroma vectors <em>x</em> and <em>y</em> as:<br />
+            <img style="width: 200px;" src="../simple_difference.png" /><br/>
+            <p>which is simply summing absolute values of the differences across all bins.</p>
+
+            <li><strong>Tonal difference</strong> </li>
+            We define tonal difference of chroma vectors <em>x</em> and <em>y</em> as:<br />
+            <img style="width: 300px;" src="../tonal_difference.png" /><br />
+            <p>where <em>w(&delta;)</em> is a weight vector, which has its 12 values dependent on the context <em>&delta;</em> of the transition from <em>x</em> to <em>y</em>.
+            <em>&delta;</em> is a tuple <em>(key, chord1, chord2)</em>, where all of <em>key, chord1, chord2</em> are represented as boolean vectors of size 12
+            (<em>chord<sub>i</sub> = true <=> the pitch class i belongs to the chord</em>).<br />
+            If the transition from <em>x</em> to <em>y</em> is within <em>C major</em> key, and <em>x</em> and <em>y</em> both represent <em>C major</em> chord,
+            then <em>&delta;</em> has the form <em>(C major, C major, C major)</em>. Weight vector <em>w(&delta;)</em> is assigned as:</p>
+                <em>w<sub>i</sub>(&delta;)=0 &lt;=&gt; chord1<sub>i</sub> = true OR chord2<sub>i</sub> = true</em><br />
+                <em>w<sub>i</sub>(&delta;)=1 &lt;=&gt; key<sub>i</sub> = true AND !(chord1<sub>i</sub> = true OR chord2<sub>i</sub> = true)</em><br />
+                <em>w<sub>i</sub>(&delta;)=2 in all other cases</em><br />
+        </ul>
 
         <!-- harmony-analyser -->
         <h2 id="harmony-analyser">3. harmony-analyser tools documentation</h2>
+        <p>For version: 1.2</p>
         <p></p>
 
         <!-- Installation -->
@@ -112,7 +158,7 @@
             <li><a href="http://harmony-analyser.org">harmony-analyser.org</a></li>
             <li><a href="https://github.com/lacimarsik/harmony-analyser">GitHub</a></li>
             <li>Mail the author: <a href="mailto: marsik@ksi.mff.cuni.cz">marsik@ksi.mff.cuni.cz</a></li>
-            <li><a href="http://www.ksi.mff.cuni.cz/cs/~marsik">Personal website</a></li>
+            <li><a href="http://www.ksi.mff.cuni.cz/en/~marsik">Personal website</a></li>
             <li>Contact address:<br/>
             Ladislav Maršík<br/>
             Dept. of Software Engineering, Faculty of Mathematics and Physics<br />
