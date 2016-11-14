@@ -95,12 +95,13 @@
 		<img style="width: 200px; padding-top: 40px;" title="harmony-analyser" src="harmony-analyser.png" /><br />
 		<div id="intro">
 			<div id="main_message">
-				<h3>harmony-analyser is a Java framework and application capable of music harmony analysis of WAV files or MIDI input.</h3>
+				<h3>harmony-analyser is a set of visual tools for music harmony analysis of WAV/MIDI input, powered by JHarmonyAnalyser library</h3>
 			</div>
-			<p>The difference we bring is in the chord and chroma transition-based approach. We believe that transitions between small chroma segments and between
-				chords can be enumerated and aid various Music Information Retrieval tasks. We aim to create a media player, which understands the music as it plays it.</p>
-			<p>harmony-analyser is licenced under the <a href="https://github.com/lacimarsik/harmony-analyser/blob/master/LICENSE.txt" target="_blank">MIT License</a> and is using
-				GPL-licenced <a target="_blank" href="http://vamp-plugins.org" target="_blank">Vamp plugins</a>.</p>
+			<p>The difference we bring is the approach based on music theory, chord and chroma distances.
+				JHarmonyAnalyser uses recent music theory models to extract musical meaning and distances between chords and chroma vectors.
+				We aim to develop open-source music player, which is musician / musicologist-friendly and aid recent music information retrieval tasks.</p>
+			<p>harmony-analyser tools and JHarmonyAnalyser library are licenced under the <a href="https://github.com/lacimarsik/harmony-analyser/blob/master/LICENSE.txt" target="_blank">GNU GPL License</a>.</p>
+				<p>Tools are compatible with GPL Licensed <a target="_blank" href="http://vamp-plugins.org" target="_blank">Vamp plugins</a> which can be used for additional analysis.</p>
 			<p>To contribute, please follow our guideline in <a href="https://github.com/lacimarsik/harmony-analyser" target="_blank">GitHub repository</a>.</p>
 		</div>
 		<div id="releases">
