@@ -76,15 +76,16 @@
 <body>
 
 	<div id="header-wrapper">
-		<div id="header" style="font-size: 0.7em;">
+		<div id="header" style="font-size: 0.6em;">
 			<p>
 				harmony-analyser.org
 			</p>
 			<a href="https://github.com/lacimarsik/harmony-analyser" title="Repository" target="_blank">Repository</a>
+			<a href="#news" title="News">News</a>
 			<a href="#releases" title="Releases">Releases</a>
 			<a href="#screenshots" title="Screenshots">Screenshots</a>
 			<a href="documentation" title="Documentation">Documentation</a>
-			<a href="http://www.ksi.mff.cuni.cz/en/~marsik" title="Publications">Publications</a>
+			<a href="http://www.ksi.mff.cuni.cz/en/software.php?sw=45" title="Publications">Publications</a>
 			<a href="#contact" title="Contact">Contact</a>
 		</div>
 	</div>
@@ -104,6 +105,12 @@
 			<p>harmony-analyser tools and JHarmonyAnalyser library are licenced under the <a href="https://github.com/lacimarsik/harmony-analyser/blob/master/LICENSE.txt" target="_blank">GNU GPL License</a>.</p>
 				<p>Tools are compatible with GPL Licensed <a target="_blank" href="http://vamp-plugins.org" target="_blank">Vamp plugins</a> which can be used for additional analysis.</p>
 			<p>To contribute, please follow our guideline in <a href="https://github.com/lacimarsik/harmony-analyser" target="_blank">GitHub repository</a>.</p>
+		</div>
+		<div id="news">
+			<h3>News</h3>
+			<p style="text-align: left; padding-bottom: 0;">2016-12-16 We were on <a href="http://wocmat-ircam.strikingly.com/">2016 Joint WOCMAT - IRCAM Forum Conference</a>! Check out the contribution <a href="http://harmony-analyser.org/download/paper-wocmat2016-harmony-analyser.pdf">paper</a> or <a href="http://harmony-analyser.org/download/presentation-wocmat2016-harmony-analyser.pdf">presentation</a>.</p>
+			<p style="text-align: left; padding-bottom: 0;">2016-12-07 Preparing the new GUI for version 1.2 - see sneak peak in the <a href="#screenshots">screenshots</a>.</p>
+			<p style="text-align: left; padding-bottom: 0;">2016-09-19 Version <a href="#current-release">1.1</a> is now available (new Chroma distances and visualizations).</p>
 		</div>
 		<div id="releases">
 			<h3>Releases</h3>
@@ -153,22 +160,19 @@
 
 		<div id="screenshots">
 			<h3>Screenshots of available tools</h3>
-			<p>Visualization tool (Chord distances)</p>
-			<img title="Chord distances" src="chord_distances.png" /><br />
-			<p>Visualization tool (Chord segmentation)</p>
-			<img title="Chord segmentation" src="somebody_segmentation.png" /><br />
-			<p>Visualization tool (Chroma differences - experimental)</p>
-			<img title="Chroma differences" src="wonderwall_chroma_complexity.png" /><br />
 			<p>Chord transition tool</p>
-			<img title="Chord transition tool" src="chord_transitions.png" /><br />
+			<img title="Chord transition tool" src="chord_transition_tool.png" /><br />
 			<p>Audio analysis tool</p>
 			<img title="Audio analysis tool" src="audio_analysis_tool.png" /><br />
+			<p>Visualization tool</p>
+			<img title="Visualization tool" src="visualization_tool.png" /><br />
 		</div>
 
-		<div id="contact">
+		<div id="contact" style="margin: 15px 120px; text-align: center;">
 			<h3>Contact</h3>
-			<p>Contact us at:</p>
-			<p><a href="mailto: marsik@ksi.mff.cuni.cz">marsik [at] ksi.mff.cuni.cz</a></p>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">GitHub: <a href="https://github.com/lacimarsik/harmony-analyser">https://github.com/lacimarsik/harmony-analyser</a></div>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">e-mail: <a href="mailto: marsik@ksi.mff.cuni.cz">marsik@ksi.mff.cuni.cz</a></div>
+			</ul>
 		</div>
 	</div>
 
