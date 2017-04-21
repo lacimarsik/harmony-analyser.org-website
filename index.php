@@ -120,6 +120,7 @@
 			<div id="releases-div">
 				<strong>harmony-analyser tools</strong><br />
 				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.2-beta-jar-with-dependencies.jar">harmony-analyser 1.2-beta (Executable JAR archive)</a></p>
+				<p>Latest Beta Script: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-script-jar-with-dependencies.jar">harmony-analyser-script 1.2-beta (CLI script)</a></p>
 
 				<div id="current-release">
 					<p>2016-09-19 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/harmony-analyser-1.1-jar-with-dependencies.jar">harmony-analyser 1.1 (Executable JAR archive)</a></p>
