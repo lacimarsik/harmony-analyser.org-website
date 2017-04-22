@@ -158,8 +158,8 @@
 					<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta-standalone.jar">jharmony-analyser-1.2-beta-standalone.jar (JAR archive)</a></p>
 					<p>Latest Stable: <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/jharmonyanalyser-1.1-standalone.jar">jharmony-analyser-1.1-standalone.jar (JAR archive)</a></p>
 				</div>
-				<a id="show" onclick="showstandalone();">Show previous releases</a>
-				<a id="hide" onclick="hidestandalone();">Hide previous releases</a>
+				<a id="showstandalone" onclick="showstandalone();">Show previous releases</a>
+				<a id="hidestandalone" onclick="hidestandalone();">Hide previous releases</a>
 				<div id="previous-releases-standalone">
 					<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/jharmonyanalyser-1.1-standalone.jar">jharmony-analyser-1.0-standalone.jar (JAR archive)</a></p>
 				</div>
