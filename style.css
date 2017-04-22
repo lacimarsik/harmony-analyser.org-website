@@ -1,10 +1,10 @@
-a#show, a#hide {
+a#show, a#hide, a#showstandalone, a#hidestanalone {
     cursor: pointer;
     color: blue;
     text-decoration: underline;
 }
 
-a#hide {
+a#hide, a#hidestandalone {
     display: none;
 }
 
