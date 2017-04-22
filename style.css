@@ -12,6 +12,10 @@ a#hide {
     display: none;
 }
 
+#previous-releases-standalone {
+    display: none;
+}
+
 ol, ul {
     padding-left: 15px;
     line-height: 1.1em;

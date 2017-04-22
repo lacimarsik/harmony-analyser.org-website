@@ -119,11 +119,11 @@
 			<p>Please choose from the releases below:</p>
 			<div id="releases-div">
 				<strong>harmony-analyser tools</strong><br />
-				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-1.2-beta-jar-with-dependencies.jar">harmony-analyser 1.2-beta (Executable JAR archive)</a></p>
-				<p>Latest Beta Script: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/harmony-analyser-script-jar-with-dependencies.jar">harmony-analyser-script 1.2-beta (CLI script)</a></p>
+				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/ha-executable-1.2-beta.jar">harmony-analyser 1.2-beta (Executable JAR archive)</a></p>
+				<p>Latest Beta Script: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/ha-script-1.2-beta.jar">harmony-analyser script 1.2-beta (CLI script)</a></p>
 
 				<div id="current-release">
-					<p>2016-09-19 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/harmony-analyser-1.1-jar-with-dependencies.jar">harmony-analyser 1.1 (Executable JAR archive)</a></p>
+					<p>Latest Stable: 2016-09-19 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/ha-executable-1.1.jar">harmony-analyser 1.1 (Executable JAR archive)</a></p>
 					<p>CHANGELOG</p>
 					<ol>
 						<li>Added Chroma Complexity analysis, evaluating transitions between subsequent chromas:
@@ -139,7 +139,7 @@
 				<a id="show" onclick="show();">Show previous releases</a>
 				<a id="hide" onclick="hide();">Hide previous releases</a>
 				<div id="previous-releases">
-					<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/harmony-analyser-1.0-jar-with-dependencies.jar">harmony-analyser 1.0 (Executable JAR archive)</a></p>
+					<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/ha-executable-1.0.jar">harmony-analyser 1.0 (Executable JAR archive)</a></p>
 					<p>CHANGELOG</p>
 					In this version, 2 basic types of analysis are supported:
 					<ol>
@@ -155,8 +155,13 @@
 				</div>
 				<div id="current-release-library">
 					<strong>JHarmonyAnalyser stand-alone library</strong><br />
-					<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta.tgz">jharmony-analyser-1.2-beta.tgz (TGZ archive)</a>
-					<a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta.jar">jharmony-analyser-1.2-beta.jar (JAR archive)</a></p>
+					<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/jharmonyanalyser-1.2-beta-standalone.jar">jharmony-analyser-1.2-beta-standalone.jar (JAR archive)</a></p>
+					<p>Latest Stable: <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/jharmonyanalyser-1.1-standalone.jar">jharmony-analyser-1.1-standalone.jar (JAR archive)</a></p>
+				</div>
+				<a id="show" onclick="showstandalone();">Show previous releases</a>
+				<a id="hide" onclick="hidestandalone();">Hide previous releases</a>
+				<div id="previous-releases-standalone">
+					<p>2016-08-11 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.0/jharmonyanalyser-1.1-standalone.jar">jharmony-analyser-1.0-standalone.jar (JAR archive)</a></p>
 				</div>
 			</div>
 		</div>
