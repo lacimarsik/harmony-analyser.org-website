@@ -1,4 +1,4 @@
-a#show, a#hide, a#showstandalone, a#hidestanalone {
+a#show, a#hide, a#showstandalone, a#hidestandalone {
     cursor: pointer;
     color: blue;
     text-decoration: underline;
