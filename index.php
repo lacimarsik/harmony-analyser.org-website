@@ -108,6 +108,7 @@
 		</div>
 		<div id="news">
 			<h3>News</h3>
+			<p style="text-align: left; padding-bottom: 0;">2017-10-01 harmony-analyser was used to extract features for the new <a href="http://yannbayle.fr/karamir">Kara1k</a> dataset along other feature extraction tools such as Marsyas, YAAFE or Essentia. The dataset and results will be presented on <a href="http://ism2017.asia.edu.tw">IEEE ISM 2017</a> conference in Taichung, Taiwan. Our work was awarded the Best Paper.</p>
 			<p style="text-align: left; padding-bottom: 0;">2017-06-13 We travel to Poland to present first results of our harmony analysis on Cover Song Identification task, as a part of <a href="https://wi.pb.edu.pl/cisim2017/">CISIM 2017</a> conference. <a href="https://link.springer.com/chapter/10.1007/978-3-319-59105-6_18">Paper</a> published in Springer LNCS series.</p>
 			<p style="text-align: left; padding-bottom: 0;">2017-05-09 <a href="https://www.mff.cuni.cz/verejnost/konalo-se/2017-05-marsik/">A little article</a> by the Charles University (in Czech language) written about the recent ACM SRC competition, where the harmony-analyser project was presented by Ladislav Marsik.</p>
 			<p style="text-align: left; padding-bottom: 0;">2017-04-21 Our contribution was awarded a <a href="https://www.sigapp.org/sac/sac2017/SRC-Winners-2017.pdf">1st place</a> in <a href="https://www.sigapp.org/sac/sac2017/">ACM SIGAPP SAC 2017</a> <a href="https://src.acm.org/winners/2018">Student Research Competition</a>! We presented a <a href="http://harmony-analyser.org/download/poster-acmsacsrc2017-chord-distance-descriptors.pdf">poster</a>, <a href="http://harmony-analyser.org/download/presentation-acmsacsrc2017-chord-distance-descriptors.pdf">oral presentation</a> and a live demo of our tools to the SRC judges. We advanced to the ACM SRC Grand Finale for all the SRC Winners. Research abstract soon to appear in the <a href="http://dl.acm.org/citation.cfm?id=3019939">ACM Digital Library</a>.</p>
@@ -181,7 +182,16 @@
 		<div id="contact" style="margin: 15px 120px; text-align: center;">
 			<h3>Contact</h3>
 			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">GitHub: <a href="https://github.com/lacimarsik/harmony-analyser">https://github.com/lacimarsik/harmony-analyser</a></div>
-			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">e-mail: <a href="mailto: marsik@ksi.mff.cuni.cz">marsik@ksi.mff.cuni.cz</a></div>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">e-mail: <a href="mailto: marsik@ksi.mff.cuni.cz">marsik@ksi.mff.cuni.cz</a></div><br />
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;"><a href="http://www.ksi.mff.cuni.cz/en/~marsik">Ladislav Maršík</a></div>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;"><a href="http://www.ksi.mff.cuni.cz/en">Department of Software Engineering</a>, Faculty of Mathematics and Physics, Charles University</div>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">Malostranské nám. 25, 118 00 Prague, Czech Republic</div>
+			</ul>
+		</div>
+
+		<div style="margin: 15px 120px; text-align: center;">
+			<h3>Acknowledgments</h3>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">This software has been funded by the Charles University, project GA UK No. 1580317 and by project SVV 260451.</div>
 			</ul>
 		</div>
 	</div>
