@@ -17,6 +17,7 @@
 			color: black;
 			font-size: 1em;
 			background: #ddd;
+			font-style: normal;
 		}
 
 		h1 {
@@ -42,7 +43,7 @@
 		}
 
 		#header p {
-			width: 50% !important;
+			width: 35% !important;
 		}
 
 		#main {
@@ -68,6 +69,11 @@
 			margin: 0 auto;
 			line-height: 1.5em;
 			padding: 30px 0;
+			font-style: italic;
+		}
+
+		#news {
+			font-style: italic;
 		}
 	</style>
     <?php echo @@file_get_contents('http://sfd.eset.com?format=author')  // eset honeypot ?>
@@ -75,19 +81,15 @@
 
 <body>
 
-	<div id="header-wrapper">
-		<div id="header" style="font-size: 0.6em;">
-			<p>
-				harmony-analyser.org
-			</p>
-			<a href="https://github.com/lacimarsik/harmony-analyser" title="Repository" target="_blank">Repository</a>
-			<a href="#news" title="News">News</a>
-			<a href="#releases" title="Releases">Releases</a>
-			<a href="#screenshots" title="Screenshots">Screenshots</a>
-			<a href="documentation" title="Documentation">Documentation</a>
-			<a href="http://www.ksi.mff.cuni.cz/en/software.php?sw=45" title="Publications">Publications</a>
-			<a href="#contact" title="Contact">Contact</a>
-		</div>
+	<div id="header" style="font-size: 0.8em;">
+		<p><a href="http://harmony-analyser.org">harmony-analyser.org</a></p>
+		<a href="https://github.com/lacimarsik/harmony-analyser" title="Repository" target="_blank">Repository</a>
+		<a href="#news" title="News">News</a>
+		<a href="#releases" title="Releases">Releases</a>
+		<a href="#screenshots" title="Screenshots">Screenshots</a>
+		<a href="documentation" title="Documentation">Documentation</a>
+		<a href="ladislav-marsik" title="Publications">Publications</a>
+		<a href="#contact" title="Contact">Contact</a>
 	</div>
 
 	<div id="main">
