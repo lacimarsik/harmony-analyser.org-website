@@ -81,6 +81,8 @@
 
 <body>
 
+
+<div id="header-wrapper">
 	<div id="header" style="font-size: 0.8em;">
 		<p><a href="http://harmony-analyser.org">harmony-analyser.org</a></p>
 		<a href="https://github.com/lacimarsik/harmony-analyser" title="Repository" target="_blank">Repository</a>
@@ -91,6 +93,7 @@
 		<a href="ladislav-marsik" title="Publications">Publications</a>
 		<a href="#contact" title="Contact">Contact</a>
 	</div>
+</div>
 
 	<div id="main">
 		<h1>
