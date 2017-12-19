@@ -121,7 +121,7 @@
 			<div id="main_message">
 				<h3 style="text-align: left;">Ladislav Maršík, M.Sc. - publication list</h3>
 			</div>
-			<a class="profile" href="http://ksi.mff.cuni.cz">Department profile</a>
+			<a class="profile" href="http://www.ksi.mff.cuni.cz/en/~marsik">Department profile</a>
 			<a class="profile" href="http://orcid.org/0000-0001-5630-0019">ORCID</a>
 			<a class="profile" href="http://www.researcherid.com/rid/G-9018-2017">ResearcherID</a>
 			<a class="profile" href="https://www.scopus.com/authid/detail.uri?authorId=57194063739">Scopus</a>
@@ -159,7 +159,7 @@
 				<a href="https://dl.acm.org/citation.cfm?id=3019939">ACM Link</a>
 				<a href="http://www.harmony-analyser.org/download/presentation-acmsacsrc2017-chord-distance-descriptors.pdf">Slides PDF</a>
 				<a href="http://www.harmony-analyser.org/download/poster-acmsacsrc2017-chord-distance-descriptors-view.jpg">Poster JPG</a>
-				<a href="https://www.sigapp.org/sac/sac2017/">ACM SRC Winner Award</a>
+				<a href="https://www.sigapp.org/sac/sac2017/SRC-Winners-2017.pdf">ACM SRC Winner Award</a>
 			</div>
 
 			<div class="paperauthors">Maršík L., Rusek M., Slaninová K., Martinovič J., Pokorný J.:</div>
@@ -167,7 +167,7 @@
 			<div class="paperpublication">in IFIP International Conference on Computer Information Systems and Industrial Management 2017,</div>
 			<div class="papermoreinfo">Lecture Notes in Computer Science, Bialystok, Poland, Springer Verlag, ISBN: 978-3-319-59104-9, ISSN: 0302-9743, pp. 205-217, 2017</div>
 			<div class="paperlinks">
-				<a href="https://link.springer.com/chapter/10.1007/978-3-319-59105-6_18">Link Springer</a>
+				<a href="https://link.springer.com/chapter/10.1007/978-3-319-59105-6_18">Springer Link</a>
 				<a href="http://www.harmony-analyser.org/download/presentation-cisim2017-cover-song-identification.pdf">Slides PDF</a>
 			</div>
 
