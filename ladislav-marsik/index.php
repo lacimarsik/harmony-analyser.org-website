@@ -127,6 +127,7 @@
 			<a class="profile" href="https://www.scopus.com/authid/detail.uri?authorId=57194063739">Scopus</a>
 			<a class="profile" href="https://www.researchgate.net/profile/Ladislav_Marsik">ResearchGate</a>
 			<a class="profile" href="https://scholar.google.cz/citations?user=z5TXAsEAAAAJ">Google Scholar</a>
+			<a class="profile" href="https://www.linkedin.com/in/ladislav-marsik-4b5b6447/">LinkedIn</a>
 			<a class="profile" href="https://dl.acm.org/author_page.cfm?id=99659174894">ACM DL</a>
 			<a class="profile" href="http://dblp.uni-trier.de/pers/hd/m/Marsik:Ladislav">DBLP</a>
 			<a class="profile" href="https://github.com/lacimarsik">GitHub</a>
