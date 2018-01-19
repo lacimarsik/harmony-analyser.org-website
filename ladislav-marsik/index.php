@@ -139,7 +139,7 @@
 			<div class="paperpublication">in 2017 IEEE International Symposium on Multimedia (ISM),</div>
 			<div class="papermoreinfo">Taichung, Taiwan, IEEE, ISBN: 978-1-5090-4571-6, 2017</div>
 			<div class="paperlinks">
-				<a href="https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=41439">IEEE Link</a>
+				<a href="http://ieeexplore.ieee.org/document/8241597/">IEEE Link</a>
 				<a href="http://www.harmony-analyser.org/download/presentation-ism2017-kara1k-dataset.pdf">Slides PDF</a>
 				<a href="www.harmony-analyser.org/download/poster-ism2017-kara1k-dataset.jpg">Poster JPG</a>
 				<a href="http://ism2017.asia.edu.tw/paper-awards/">Honorable Mention Award</a>
