@@ -213,6 +213,25 @@
 
 		<hr />
 
+		<div id="awards" style="margin: 45px 0; text-align: left;">
+			<h3>Awards</h3>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">ACM SRC Winner (Apr 2017)</div>
+			<div class="paperpublication">Participated and won 1st place at ACM Student Research Competition, sponsored by Microsoft. At SAC 2017, Marrakech, Morocco</div>
+			<div class="paperlinks">
+				<a href="https://src.acm.org/winners/2018">ACM SRC link</a>
+				<a href="https://www.sigapp.org/sac/sac2017/SRC-Winners-2017.pdf">ACM SAC link</a>
+				<a href="https://www.mff.cuni.cz/verejnost/konalo-se/2017-05-marsik/">Charles University article</a>
+			</div>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">IEEE Honorable Mention (Dec 2017)</div>
+			<div class="paperpublication">Honorable Mention for 6 best papers from 32 full papers accepted at 23% acceptance rate, in IEEE ISM 2017, Taichung, Taiwan.</div>
+			<div class="paperlinks">
+				<a href="http://ism2017.asia.edu.tw/paper-awards/">IEEE ISM link</a>
+			</div>
+			</ul>
+		</div>
+
+		<hr />
+
 		<div id="contact" style="margin: 45px 0; text-align: left;">
 			<h3>Contact</h3>
 			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">e-mail: <a href="mailto: marsik@ksi.mff.cuni.cz">marsik@ksi.mff.cuni.cz</a></div><br />
