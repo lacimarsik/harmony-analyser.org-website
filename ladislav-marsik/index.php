@@ -141,7 +141,7 @@
 			<div class="paperlinks">
 				<a href="http://ieeexplore.ieee.org/document/8241597/">IEEE Link</a>
 				<a href="http://www.harmony-analyser.org/download/presentation-ism2017-kara1k-dataset.pdf">Slides PDF</a>
-				<a href="http://www.harmony-analyser.org/download/poster-ism2017-kara1k-dataset.jpg">Poster JPG</a>
+				<a href="http://www.harmony-analyser.org/download/poster-ism2017-kara1k-dataset-view.jpg">Poster JPG</a>
 				<a href="http://ism2017.asia.edu.tw/paper-awards/">Honorable Mention Award</a>
 			</div>
 
