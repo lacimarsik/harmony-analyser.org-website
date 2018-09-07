@@ -198,7 +198,7 @@
 
 		<div style="margin: 15px 120px; text-align: center;">
 			<h3>Acknowledgments</h3>
-			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">This software has been funded by the Charles University, project GA UK No. 1580317 and by project SVV 260451.</div>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">This software has been funded by the Charles University, projects GA UK No. 708314, GA UK No. 1580317, SVV-2014-260100, SVV-2016-260331 and SVV 260451.</div>
 			</ul>
 		</div>
 	</div>
