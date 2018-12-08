@@ -136,10 +136,10 @@
 		<div id="papers">
 			<div class="paperauthors">Maršík L., Martišek P., Pokorný J., Rusek M., Slaninová K., Martinovič J., Robine M., Hanna P., Bayle Y.:</div>
 			<div class="papername">KaraMIR: A project for cover song identification and singing voice analysis using a karaoke songs dataset</div>
-			<div class="paperpublication">in International Journal of Semantic Computing, Vol. 12, Num. 4, pp. 1-22</div>
+			<div class="paperpublication">in International Journal of Semantic Computing, Vol. 12, Num. 4, pp. 501-522</div>
 			<div class="papermoreinfo">ISSN: 1793-351X, 2018</div>
 			<div class="paperlinks">
-				<a href="https://www.worldscientific.com/worldscinet/ijsc">Journal Link</a>
+				<a href="https://www.worldscientific.com/toc/ijsc/12/04">Journal Link</a>
 			</div>
 
 			<div class="paperauthors">Bayle Y., Maršík L., Rusek M., Robine M., Hanna P., Slaninová K., Martinovič J., Pokorný J.:</div>
