@@ -91,7 +91,6 @@
 		<a href="#screenshots" title="Screenshots">Screenshots</a>
 		<a href="documentation" title="Documentation">Documentation</a>
 		<a href="ladislav-marsik" title="Publications">Publications</a>
-		<a href="#contact" title="Contact">Contact</a>
 	</div>
 </div>
 
@@ -113,6 +112,8 @@
 		</div>
 		<div id="news">
 			<h3>News</h3>
+			<p style="text-align: left; padding-bottom: 0;">2019-06-26 Our harmony-analyser research won the Special award of the <a href="https://atos.net/en/about-us/competitions/atos-joseph-fourier-prize">Joseph Fourier Prize competition 2019</a>. We were awarded 50,000 core hours on the <a href="https://www.it4i.cz/jak-ziskat-vypocetni-cas/">ANSELM supercomputer</a>. Thank you French Embassy of Czech Republic and Atos for the opportunity to present this research infront of the jury.</p>
+			<p style="text-align: left; padding-bottom: 0;">2019-05-01 The research topic was selected as a contestant for Charles University on the <a href="https://atos.net/en/about-us/competitions/atos-joseph-fourier-prize">Joseph Fourier Prize competition 2019</a> (organized by French Embassy and Atos), an excerpt of the recently submitted PhD thesis "Cover Song Identification using Music Harmony Features, Model and Complexity Analysis" will be presented by Ladislav Marsik.</p>
 			<p style="text-align: left; padding-bottom: 0;">2018-12-10 A new <a href="https://www.worldscientific.com/toc/ijsc/12/04">journal article</a> has just been published in the Volume 12/4 (December) of the <a href="https://www.worldscientific.com/worldscinet/ijsc">International Journal of Semantic Computing</a>! Its main contribution is the Cover Song Identification on our Kara1k dataset within the <a href="http://yannbayle.fr/karamir/karamir.php">KaraMIR</a> project of three universities. Our last year's IEEE Best Paper nominee was selected to form the basis of this extended article.</p>
 			<p style="text-align: left; padding-bottom: 0;">2018-01-19 <a href="http://yannbayle.fr/karamir">Kara1k dataset</a> publication is now available in <a href="http://ieeexplore.ieee.org/document/8241597/">IEEE Xplore</a> library.</p>
 			<p style="text-align: left; padding-bottom: 0;">2017-12-19 <a href="http://yannbayle.fr/karamir">Kara1k dataset</a> with our harmony-analyser features is now fully available! Our work was awarded a <a href="http://ism2017.asia.edu.tw/paper-awards/">Honorable Mention</a> by the chairs for 6 best papers on <a href="http://ism2017.asia.edu.tw">IEEE ISM 2017</a> in Taichung, Taiwan. Please see the conference <a href="http://www.harmony-analyser.org/download/poster-ism2017-kara1k-dataset.jpg">poster</a> and <a href="http://www.harmony-analyser.org/download/presentation-ism2017-kara1k-dataset.pdf">presentation</a> to get a grasp on how to utilize these features and dataset for your own research.</p>
