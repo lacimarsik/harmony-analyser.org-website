@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>Ladislav Maršík - publication list | harmony-analyser.org</title>
+	<title>Ladislav Maršík - list of publications | harmony-analyser.org</title>
 	<meta name="description" itemprop="description" content="Ladislav Marsik research, Ladislav Marsik KSI, Ladislav Marsik PhD, Ladislav Marsik Charles University" />
 	<link rel="shortcut icon" href="http://websupport.sk/images/favicon.ico" type="image/x-icon" />
 	<link href="style.css" rel="stylesheet">
@@ -112,27 +112,32 @@
 		<a href="http://harmony-analyser.org#screenshots" title="Screenshots">Screenshots</a>
 		<a href="http://harmony-analyser.org/documentation" title="Documentation">Documentation</a>
 		<a href="http://harmony-analyser.org/ladislav-marsik" title="Publications">Publications</a>
-		<a href="#contact" title="Contact">Contact</a>
 	</div>
 </div>
 
 	<div id="main">
 		<div id="intro">
 			<div id="main_message">
-				<h3 style="text-align: left;">Ladislav Maršík, M.Sc. - publication list</h3>
+				<h3 style="text-align: left;">Ladislav Maršík, M.Sc.</h3>
 			</div>
-			<a class="profile" href="http://www.ksi.mff.cuni.cz/en/~marsik">Department profile</a>
+			<img src="acm_sac.jpg" style="width: 150px" />
+			<br />
+			<p style="font-size: 11px;">I am a PhD candidate at Charles University in Prague, my thesis is called "Cover Song Identification using Music Harmony Features, Model and Complexity Analysis" in the field of Music Information Retrieval.
+Combining music and informatics has been a subject of my interest for several years, along with software engineering and playing with our <a href="http://www.lafamiliasalsaband.com">music band</a> in Prague.</p><br />
+			<a class="profile" href="cv-ladislav-marsik.pdf">CV</a>
+			<a class="profile" href="https://scholar.google.cz/citations?user=z5TXAsEAAAAJ">Google Scholar</a>
+			<a class="profile" href="https://github.com/lacimarsik">GitHub</a>
+			<a class="profile" href="https://www.linkedin.com/in/ladislav-marsik-4b5b6447/">LinkedIn</a>
+			<a class="profile" href="https://www.researchgate.net/profile/Ladislav_Marsik">ResearchGate</a>
 			<a class="profile" href="http://orcid.org/0000-0001-5630-0019">ORCID</a>
 			<a class="profile" href="http://www.researcherid.com/rid/G-9018-2017">ResearcherID</a>
 			<a class="profile" href="https://www.scopus.com/authid/detail.uri?authorId=57194063739">Scopus</a>
-			<a class="profile" href="https://www.researchgate.net/profile/Ladislav_Marsik">ResearchGate</a>
-			<a class="profile" href="https://scholar.google.cz/citations?user=z5TXAsEAAAAJ">Google Scholar</a>
-			<a class="profile" href="https://www.linkedin.com/in/ladislav-marsik-4b5b6447/">LinkedIn</a>
 			<a class="profile" href="https://dl.acm.org/author_page.cfm?id=99659174894">ACM DL</a>
 			<a class="profile" href="http://ieeexplore.ieee.org/search/searchresult.jsp?searchWithin=%22Authors%22:.QT.Ladislav%20Mar%C5%A1%C3%ADk.QT.&newsearch=true">IEEE Xplore</a>
 			<a class="profile" href="http://dblp.uni-trier.de/pers/hd/m/Marsik:Ladislav">DBLP</a>
-			<a class="profile" href="https://github.com/lacimarsik">GitHub</a>
+			<a class="profile" href="https://www.mff.cuni.cz/cs/fakulta/organizacni-struktura/lide?hdl=7720">MFF UK</a>
 		</div>
+		<h3>List of publications</h3>
 		<div id="papers">
 			<div class="paperauthors">Maršík L., Martišek P., Pokorný J., Rusek M., Slaninová K., Martinovič J., Robine M., Hanna P., Bayle Y.:</div>
 			<div class="papername">KaraMIR: A project for cover song identification and singing voice analysis using a karaoke songs dataset</div>
