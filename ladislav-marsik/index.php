@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>Ladislav Maršík - list of publications | harmony-analyser.org</title>
+	<title>Ladislav Maršík - Scientific profile | harmony-analyser.org</title>
 	<meta name="description" itemprop="description" content="Ladislav Marsik research, Ladislav Marsik KSI, Ladislav Marsik PhD, Ladislav Marsik Charles University" />
 	<link rel="shortcut icon" href="http://websupport.sk/images/favicon.ico" type="image/x-icon" />
 	<link href="style.css" rel="stylesheet">
@@ -118,12 +118,12 @@
 	<div id="main">
 		<div id="intro">
 			<div id="main_message">
-				<h3 style="text-align: left;">Ladislav Maršík, M.Sc.</h3>
+				<h3 style="text-align: left;">RNDr. Ladislav Maršík, Ph.D.</h3>
 			</div>
 			<img src="acm_sac.jpg" style="width: 150px" />
 			<br />
-			<p style="font-size: 11px;">I am a PhD candidate at Charles University in Prague, my thesis is called "Cover Song Identification using Music Harmony Features, Model and Complexity Analysis" in the field of Music Information Retrieval.
-Combining music and informatics has been a subject of my interest for several years, along with software engineering and playing with our <a href="http://www.lafamiliasalsaband.com">music band</a> in Prague.</p><br />
+			<p style="font-size: 13px;">I received my Ph.D. degree at Charles University in Prague, my thesis is called <a href="https://is.cuni.cz/studium/dipl_st/index.php?id=a78d4640b8a33a6baada08e3db806a56&tid=1&do=xdownload&fid=140077142&did=142563&vdetailu=1">Cover Song Identification using Music Harmony Features, Model and Complexity Analysis</a> in the field of Music Information Retrieval.
+Combining music and informatics has been a subject of my interest for several years, along with web design, software engineering and playing with our <a href="http://www.lafamiliasalsaband.com">music band</a> in Prague.</p><br />
 			<a class="profile" href="cv-ladislav-marsik.pdf">CV</a>
 			<a class="profile" href="https://scholar.google.cz/citations?user=z5TXAsEAAAAJ">Google Scholar</a>
 			<a class="profile" href="https://github.com/lacimarsik">GitHub</a>
@@ -139,6 +139,13 @@ Combining music and informatics has been a subject of my interest for several ye
 		</div>
 		<h3>List of publications</h3>
 		<div id="papers">
+			<div class="paperauthors">Maršík L.</div>
+			<div class="papername">Cover Song Identification using Music Harmony Features, Model and Complexity Analysis</div>
+			<div class="paperpublication">Charles University in Prague</div>
+			<div class="paperlinks">
+				<a href="https://is.cuni.cz/studium/dipl_st/index.php?id=a78d4640b8a33a6baada08e3db806a56&tid=1&do=xdownload&fid=140077142&did=142563&vdetailu=1">University Link</a>
+			</div>
+
 			<div class="paperauthors">Maršík L., Martišek P., Pokorný J., Rusek M., Slaninová K., Martinovič J., Robine M., Hanna P., Bayle Y.:</div>
 			<div class="papername">KaraMIR: A project for cover song identification and singing voice analysis using a karaoke songs dataset</div>
 			<div class="paperpublication">in International Journal of Semantic Computing, Vol. 12, Num. 4, pp. 501-522</div>
@@ -240,15 +247,19 @@ Combining music and informatics has been a subject of my interest for several ye
 			<div class="paperlinks">
 				<a href="http://ism2017.asia.edu.tw/paper-awards/">IEEE ISM link</a>
 			</div>
-			</ul>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">Joseph Fourier Prize (May 2019)</div>
+			<div class="paperpublication">Prize of the Jury (50,000 core hours on IT4Innovations supercomputer) French Embassy in Prague, Atos</div>
+			<div class="paperlinks">
+				<a href="https://www.mff.cuni.cz/cs/verejnost/aktuality/cena-josepha-fouriera">University Link</a>
+			</div>
 		</div>
 
 		<hr />
 
 		<div id="contact" style="margin: 45px 0; text-align: left;">
 			<h3>Contact</h3>
-			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">e-mail: <a href="mailto: marsik@ksi.mff.cuni.cz">marsik@ksi.mff.cuni.cz</a></div><br />
-			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;"><a href="http://www.ksi.mff.cuni.cz/en/~marsik">Ladislav Maršík</a></div>
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">e-mail: <a href="mailto: laci@marsik.sk">laci@marsik.sk</a></div><br />
+			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;"><a href="http://harmony-analyser.org/ladislav-marsik">Ladislav Maršík</a></div>
 			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;"><a href="http://www.ksi.mff.cuni.cz/en">Department of Software Engineering</a>, Faculty of Mathematics and Physics, Charles University</div>
 			<div style="line-height: 1em; padding-bottom: 5px; text-align: left;">Malostranské nám. 25, 118 00 Prague, Czech Republic</div>
 			</ul>
