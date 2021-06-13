@@ -112,7 +112,8 @@
 		</div>
 		<div id="news">
 			<h3>News</h3>
-			<p style="text-align: left; padding-bottom: 0;">2019-06-26 Our harmony-analyser research won the Special award of the <a href="https://atos.net/en/about-us/competitions/atos-joseph-fourier-prize">Joseph Fourier Prize competition 2019</a>. We were awarded 50,000 core hours on the <a href="https://www.it4i.cz/jak-ziskat-vypocetni-cas/">ANSELM supercomputer</a>. Thank you French Embassy of Czech Republic and Atos for the opportunity to present this research infront of the jury.</p>
+			<p style="text-align: left; padding-bottom: 0;">2019-09-24 The Ph.D. thesis regarding harmony-analyser work is finally done & defended! The thesis "Cover Song Identification using Music Harmony Features, Model and Complexity Analysis" is available on the <a href="https://dspace.cuni.cz/handle/20.500.11956/111319">university website</a> and was well-received by the jury at Charles university. Ladislav Marsik is ready to continue the research outside the university now, as an open-source initiative. The goals are now set to make the app more portable, and/or available online.</p>
+			<p style="text-align: left; padding-bottom: 0;">2019-06-26 Our harmony-analyser research won the Special award of the <a href="https://www.mff.cuni.cz/cs/verejnost/aktuality/cena-josepha-fouriera">Joseph Fourier Prize competition 2019</a>. We were awarded 50,000 core hours on the <a href="https://www.it4i.cz/jak-ziskat-vypocetni-cas/">ANSELM supercomputer</a>. Thank you French Embassy of Czech Republic and Atos for the opportunity to present this research infront of the jury.</p>
 			<p style="text-align: left; padding-bottom: 0;">2019-05-01 The research topic was selected as a contestant for Charles University on the <a href="https://atos.net/en/about-us/competitions/atos-joseph-fourier-prize">Joseph Fourier Prize competition 2019</a> (organized by French Embassy and Atos), an excerpt of the recently submitted PhD thesis "Cover Song Identification using Music Harmony Features, Model and Complexity Analysis" will be presented by Ladislav Marsik.</p>
 			<p style="text-align: left; padding-bottom: 0;">2018-12-10 A new <a href="https://www.worldscientific.com/toc/ijsc/12/04">journal article</a> has just been published in the Volume 12/4 (December) of the <a href="https://www.worldscientific.com/worldscinet/ijsc">International Journal of Semantic Computing</a>! Its main contribution is the Cover Song Identification on our Kara1k dataset within the <a href="http://yannbayle.fr/karamir/karamir.php">KaraMIR</a> project of three universities. Our last year's IEEE Best Paper nominee was selected to form the basis of this extended article.</p>
 			<p style="text-align: left; padding-bottom: 0;">2018-01-19 <a href="http://yannbayle.fr/karamir">Kara1k dataset</a> publication is now available in <a href="http://ieeexplore.ieee.org/document/8241597/">IEEE Xplore</a> library.</p>
@@ -131,11 +132,12 @@
 			<p>Please choose from the releases below:</p>
 			<div id="releases-div">
 				<strong>harmony-analyser tools</strong><br />
-				<p>Latest Beta: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/ha-executable-1.2-beta.jar">ha-executable-1.2-beta.jar (GUI - Executable JAR)</a></p>
-				<p>Latest Beta Script: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/ha-script-1.2-beta.jar">ha-script-1.2-beta.jar (CLI script)</a></p>
 
 				<div id="current-release">
-					<p>Latest Stable: 2016-09-19 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/ha-executable-1.1.jar">ha-executable-1.1.jar (GUI - Executable JAR)</a></p>
+					<p>Latest Stable: 2016-09-19 <a href="https://github.com/lacimarsik/harmony-analyser/releases/download/v1.1/ha-executable-1.1.jar">ha-executable-1.1.jar (GUI - Executable JAR)</a> (download and run using <pre>java -jar ha-executable-1.1.jar</pre> console command)</p>
+
+					<p>Latest Beta (may not run in all environments): <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/ha-executable-1.2-beta.jar">ha-executable-1.2-beta.jar (GUI - Executable JAR)</a></p>
+				    <p>Latest Beta Script: <a href="https://github.com/lacimarsik/harmony-analyser/raw/master/target/ha-script-1.2-beta.jar">ha-script-1.2-beta.jar (CLI script)</a></p>
 					<p>CHANGELOG</p>
 					<ol>
 						<li>Added Chroma Complexity analysis, evaluating transitions between subsequent chromas:
